@@ -1,0 +1,11 @@
+{
+	"id": "org.webosports.app.camera",
+	"type": "qml",
+	"main": "qml/main.qml",
+	"title": "Camera",
+	"uiRevision": 2,
+	"visible": "true",
+	"loadingAnimationDisabled": "false",
+	"icon": "icon.png",
+	"splashicon": "icon-192x192.png"
+}
