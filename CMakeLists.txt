@@ -22,7 +22,7 @@ if(NOT Qt5Multimedia_FOUND)
 endif()
 
 set(APP_DIR ${WEBOS_INSTALL_WEBOS_APPLICATIONSDIR}/org.webosports.app.camera)
-set(APP_DATA appinfo.json icon.png icon-256x256.png)
+set(APP_DATA appinfo.json icon.png icon-192x192.png)
 
 install(FILES ${APP_DATA} DESTINATION ${APP_DIR})
 install(DIRECTORY qml DESTINATION ${APP_DIR})
