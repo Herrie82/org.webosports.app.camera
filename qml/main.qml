@@ -21,10 +21,15 @@ import QtQuick.Window 2.0
 import QtQuick.Controls 1.0
 //import LunaNext.Common 0.1
 
-Item {
-
-    width: 600
-    height: 450
+Window {
+    id: root
+    width: 800
+    height: 600
+	
+	Component.onCompleted:
+    {
+        root.visible = true
+	}
 
     Rectangle
     {
